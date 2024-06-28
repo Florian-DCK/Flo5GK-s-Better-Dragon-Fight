@@ -5,8 +5,6 @@
  # Created by Flo5GK.
 ##
 # Ajouter et initialiser les scoreboards nécessaires
-# Ajouter et initialiser les scoreboards nécessaires
-# Ajouter et initialiser les scoreboards nécessaires
 scoreboard objectives add tempHealth dummy
 scoreboard objectives add healthBoostPerPlayer dummy
 scoreboard objectives add baseHealth dummy
@@ -19,7 +17,7 @@ execute as @a run scoreboard players add fbdf playerCount 1
 
 # Définir les valeurs de base et de boost
 scoreboard players set fbdf healthBoostPerPlayer 50
-scoreboard players set fbdf baseHealth 300
+scoreboard players set fbdf baseHealth 250
 
 # Calculer la santé temporaire
 scoreboard players set fbdf tempHealth 0
